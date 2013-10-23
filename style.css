@@ -1,0 +1,48 @@
+
+* { margin: 0; padding: 0; } 
+
+html,
+body,
+.column {
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.column {
+  background: white;
+  width: 33.31%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.column-center {
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  top: 50%;
+  left: 50%;
+}
+
+canvas {
+  margin-top: -150px;
+  margin-left: -150px;
+  width: 300px;
+  height: 300px;
+  background: url(/paper_fibers.png);
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+.line {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 0%;
+  height: 100%;
+  border-left: 1px dashed #eee;
+}
